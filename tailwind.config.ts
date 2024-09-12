@@ -11,6 +11,14 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "custom-bg-color": "rgb(12, 12 ,12)",
+        "custom-border-color": "rgb(72, 72, 72)",
+        "custom-toolbar-color": "rgb(222, 222, 222)",
+        "custom-headings-color": "rgb(217, 217, 217)",
+      },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        jakarta: ['"Plus Jakarta Sans"', "sans-serif"],
       },
     },
   },
