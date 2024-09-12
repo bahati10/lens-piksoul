@@ -1,6 +1,4 @@
-import Image from "next/image";
 import NavLogo from "./logo";
-import { images } from "@/constants/images";
 import LandingNavContact from "./contact";
 import ToolbarItems from "./toolbar";
 
