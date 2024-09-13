@@ -15,6 +15,8 @@ const config: Config = {
         "custom-border-color": "rgb(72, 72, 72)",
         "custom-toolbar-color": "rgb(222, 222, 222)",
         "custom-headings-color": "rgb(217, 217, 217)",
+        "custom-font-color": "rgb(159, 159, 159)",
+        "custom-footer-bg": "rgb(4, 4, 4)",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
