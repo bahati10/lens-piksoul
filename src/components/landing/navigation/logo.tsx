@@ -5,7 +5,7 @@ const NavLogo = () => {
   return (
     <>
       <div>
-        <Image className="w-24" src={images.LOGO} alt="" />
+        <Image className="w-32" src={images.LOGO} alt="" />
       </div>
     </>
   );

@@ -13,6 +13,7 @@ const config: Config = {
         foreground: "var(--foreground)",
         "custom-bg-color": "rgb(12, 12 ,12)",
         "custom-border-color": "rgb(72, 72, 72)",
+        "custom-team-border-color": "rgb(35, 35, 35)",
         "custom-toolbar-color": "rgb(222, 222, 222)",
         "custom-headings-color": "rgb(217, 217, 217)",
         "custom-font-color": "rgb(159, 159, 159)",

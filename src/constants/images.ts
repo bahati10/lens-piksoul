@@ -8,6 +8,10 @@ import YOUTUBE from "@/app/assets/FOOTER/YOUTUBE.svg";
 import GALLERYICON from "@/app/assets/FOOTER/GALLERYICON.svg";
 import EMAILICON from "@/app/assets/FOOTER/EMAILICON.svg";
 import COPYRIGHT from "@/app/assets/FOOTER/COPYRIGHT.svg";
+import TEAMICON from "@/app/assets/TEAM/TEAM-ICON.svg";
+import MEMBER1 from "@/app/assets/TEAM/MEMBER 1.svg";
+import MEMBER2 from "@/app/assets/TEAM/MEMBER 2.svg";
+import MEMBER3 from "@/app/assets/TEAM/MEMBER 3.svg";
 
 export const images = {
   LOGO,
@@ -20,4 +24,8 @@ export const images = {
   DROPNOTEICON,
   GALLERYICON,
   COPYRIGHT,
+  TEAMICON,
+  MEMBER1,
+  MEMBER2,
+  MEMBER3,
 };
