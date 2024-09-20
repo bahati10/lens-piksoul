@@ -9,7 +9,9 @@ const AboutContainer: React.FC = () => {
         <AboutBox />
         <div className="w-[700px]">
           <AboutText />
-          <AboutLearnMore />
+          <div className="flex justify-end">
+            <AboutLearnMore />
+          </div>
         </div>
       </div>
     </>

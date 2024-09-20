@@ -18,10 +18,16 @@ const config: Config = {
         "custom-headings-color": "rgb(217, 217, 217)",
         "custom-font-color": "rgb(159, 159, 159)",
         "custom-footer-bg": "rgb(4, 4, 4)",
+        "custom-services-color": "rgb(200, 200, 200)",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
         jakarta: ['"Plus Jakarta Sans"', "sans-serif"],
+      },
+      spacing: {
+        "ws-1": "0.25em",
+        "ws-2": "0.5em",
+        "ws-3": "1em",
       },
     },
   },
