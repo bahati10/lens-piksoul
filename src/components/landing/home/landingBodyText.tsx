@@ -25,7 +25,7 @@ const HomeComp: React.FC = () => {
 
         <div className="relative">
           <NavContainer />
-          <div className="z-20 h-full flex items-center justify-center font-jakarta mt-36 text-center text-7xl text-custom-toolbar-color font-extrabold tracking-tighter leading-[90px]">
+          <div className="z-20 h-full flex items-center justify-center font-jakarta mt-36 text-center text-7xl text-custom-headings-color font-extrabold tracking-tighter leading-[90px]">
             Capture great memories <br /> with us.
           </div>
           <div className="flex justify-center mt-7 h-14">

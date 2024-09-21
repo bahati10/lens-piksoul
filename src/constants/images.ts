@@ -24,6 +24,13 @@ import DOCUMENTARIES from "@/app/assets/SERVICE/DOCUMENTARY.svg";
 import FASHION from "@/app/assets/SERVICE/FASHION.svg";
 import REAL_ESTATE from "@/app/assets/SERVICE/REAL-ESTATE.svg";
 import LANDING_IMAGE from "@/app/assets/LANDINGIMAGE.jpg";
+import KID_IMAGE from "@/app/assets/GALLERY/KIDIMAGEPRE.svg";
+import FRAME1 from "@/app/assets/SERVICE/FRAME1.svg";
+import FRAME2 from "@/app/assets/SERVICE/FRAME2.svg";
+import BRIEFCASE1 from "@/app/assets/SERVICE/BRIEFCASE1.svg";
+import BRIEFCASE2 from "@/app/assets/SERVICE/BRIEFCASE2.svg";
+import NEXT_BTN from "@/app/assets/GALLERY/NEXT-BTN.svg";
+import PREVIOUS_BTN from "@/app/assets/GALLERY/PREVIOUS-BTN.svg";
 
 export const images = {
   LOGO,
@@ -52,4 +59,15 @@ export const images = {
   DRONE3,
   DRONE4,
   LANDING_IMAGE,
+  gallery: {
+    KID_IMAGE,
+    NEXT_BTN,
+    PREVIOUS_BTN,
+    FRAME1,
+    FRAME2,
+  },
+  SERVICES: {
+    BRIEFCASE1,
+    BRIEFCASE2,
+  },
 };

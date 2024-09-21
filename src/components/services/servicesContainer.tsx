@@ -8,17 +8,17 @@ const ServicesContainer: React.FC = () => {
     <div className="flex flex-col w-11/12">
       <div>
         {/* <div
-          className="text-center text-custom-headings-color text-5xl font-jakarta font-bold tracking-tight [word-spacing: 40px]"
+          className="text-center text-custom-headings-color text-5xl font-jakarta font-bold tracking-tight [word-spacing: 40px] mb-8"
           style={{ wordSpacing: "0.2em" }}
         >
-          Comprehensive visual services
+          What we offer?
         </div> */}
         <div
           className="flex justify-center text-center text-custom-font-color mt-4 mb-20 text-2xl font-jakarta font-semibold tracking-tighter"
           style={{ wordSpacing: "0.1em" }}
         >
           <TitleButtonBox
-            iconSrc={images.DROPNOTEICON}
+            iconSrc={images.SERVICES.BRIEFCASE1}
             iconAlt="Icon"
             text="Services"
           />
