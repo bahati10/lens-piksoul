@@ -6,7 +6,7 @@ import Team from "@/components/team/team";
 
 export default function Home() {
   return (
-    <div>
+    <div className="">
       <LandingComp />
       <About />
       <PreGalleryContainer />

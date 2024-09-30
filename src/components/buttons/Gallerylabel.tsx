@@ -1,4 +1,3 @@
-import { images } from "@/constants/images";
 import Image from "next/image";
 
 interface GalleryLabelProps {
@@ -14,7 +13,7 @@ const GalleryLabel: React.FC<GalleryLabelProps> = ({
 }) => {
   return (
     <div className="flex justify-start">
-      <button className="flex items-center justify-center border-2 text-custom-headings-color px-4 h-12 rounded-full text-[18px] font-poppins font-semibold tracking-tight">
+      <button className="flex items-center justify-center border-2 text-custom-headings-color px-4 w-36 h-12 rounded-full text-[18px] font-poppins font-semibold tracking-tight">
         <Image src={iconSrc} alt={iconAlt} className="w-4" />
         <span className="w-2"></span>
         {labelText}

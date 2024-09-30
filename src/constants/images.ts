@@ -31,6 +31,9 @@ import BRIEFCASE1 from "@/app/assets/SERVICE/BRIEFCASE1.svg";
 import BRIEFCASE2 from "@/app/assets/SERVICE/BRIEFCASE2.svg";
 import NEXT_BTN from "@/app/assets/GALLERY/NEXT-BTN.svg";
 import PREVIOUS_BTN from "@/app/assets/GALLERY/PREVIOUS-BTN.svg";
+import CONVERSE_SUIT from "@/app/assets/GALLERY/CONVERSE.svg";
+import WEDDING from "@/app/assets/GALLERY/WEDDING.svg";
+import FOREST from "@/app/assets/GALLERY/FOREST.svg";
 
 export const images = {
   LOGO,
@@ -65,6 +68,9 @@ export const images = {
     PREVIOUS_BTN,
     FRAME1,
     FRAME2,
+    CONVERSE_SUIT,
+    FOREST,
+    WEDDING,
   },
   SERVICES: {
     BRIEFCASE1,
