@@ -1,5 +1,6 @@
 import { images } from "@/constants/images";
 import Image from "next/image";
+import Link from "next/link";
 
 const FooterGalleryButton: React.FC = () => {
   return (
@@ -12,7 +13,9 @@ const FooterGalleryButton: React.FC = () => {
           <Image src={images.GALLERYICON} alt="Gallery icon" className="mx-2" />
           <div className="mx-2">Gallery</div>
         </button>
-        <Image src={images.CONTACTREDIRECT} alt="Redirect Icon" />
+        <Link href="/gallery">
+          <Image src={images.CONTACTREDIRECT} alt="Redirect Icon" />
+        </Link>
       </div>
     </>
   );

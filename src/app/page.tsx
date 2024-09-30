@@ -1,13 +1,17 @@
 import About from "@/components/about/about";
 import LandingComp from "@/components/landing/home/landingHome";
-import TeamSection from "@/components/team/teamSection";
+import PreGalleryContainer from "@/components/pregallery/preGalleryContainer";
+import Services from "@/components/services/services";
+import Team from "@/components/team/team";
 
 export default function Home() {
   return (
-    <div>
+    <div className="">
       <LandingComp />
       <About />
-      <TeamSection />
+      <PreGalleryContainer />
+      <Services />
+      <Team />
     </div>
   );
 }

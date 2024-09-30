@@ -30,7 +30,11 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-custom-bg-color`}
       >
         {/* <NavContainer /> */}
-        <main>{children}</main>
+        <div className="max-w-[1400px] mx-auto my-0">
+          <main>{children}</main>
+        </div>
+
+        {/* {!NotFound && <Footer />} */}
         <Footer />
       </body>
     </html>

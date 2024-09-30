@@ -1,7 +1,13 @@
+import TeamSectionIntro from "./TeamSectionIntro";
+import MemberCardsContainer from "./memberCardsContainer";
+
 const TeamSection: React.FC = () => {
   return (
     <>
-      <div></div>
+      <div className=" w-11/12">
+        <TeamSectionIntro />
+        <MemberCardsContainer />
+      </div>
     </>
   );
 };
