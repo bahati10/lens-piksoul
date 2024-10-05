@@ -23,6 +23,8 @@ const config: Config = {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
         jakarta: ['"Plus Jakarta Sans"', "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
+        righteous: ["Righteous", "cursive"],
       },
       spacing: {
         "ws-1": "0.25em",

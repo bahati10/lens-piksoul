@@ -34,6 +34,8 @@ import PREVIOUS_BTN from "@/app/assets/GALLERY/PREVIOUS-BTN.svg";
 import CONVERSE_SUIT from "@/app/assets/GALLERY/CONVERSE.svg";
 import WEDDING from "@/app/assets/GALLERY/WEDDING.svg";
 import FOREST from "@/app/assets/GALLERY/FOREST.svg";
+import LOST_IMAGE from "@/app/assets/LOST.svg";
+import HOME_ICON from "@/app/assets/HOME-ICON.svg";
 
 export const images = {
   LOGO,
@@ -62,6 +64,8 @@ export const images = {
   DRONE3,
   DRONE4,
   LANDING_IMAGE,
+  HOME_ICON,
+  LOST_IMAGE,
   gallery: {
     KID_IMAGE,
     NEXT_BTN,

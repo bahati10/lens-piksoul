@@ -35,7 +35,7 @@ const PreGallery: React.FC = () => {
   return (
     <>
       <div className="flex flex-col items-center justify-center w-11/12 rounded-2xl py-10 bg-custom-team-border-color">
-        <div className="h-[700px] overflow-hidden rounded-2xl border-2 border-white">
+        <div className="h-[700px] overflow-hidden rounded-2xl">
           <Image
             src={currentItem.image}
             alt={`Gallery image ${currentIndex + 1}`}
